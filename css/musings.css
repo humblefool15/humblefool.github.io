@@ -1,0 +1,159 @@
+
+@font-face {
+    font-family: "fira-sans-book";
+    src: url("FiraSans-Book.woff") format('woff');
+}
+@font-face {
+    font-family: "fira-sans-light";
+    src: url("FiraSans-ExtraLight.woff") format('woff');
+}
+@font-face {
+    font-family: "fira-sans-thin";
+    src: url("FiraSans-UltraLight.woff") format('woff');
+}
+
+html {
+  border-top: 5px solid #777;
+	height: 96%;
+	margin-top: 0.5px;
+}
+
+body {
+  background-size: cover;
+	font-family: "fira-sans-book";
+	font-weight: 100;
+  background: linear-gradient(to right, white, hsl(50, 0%, 96%));
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.site-main, .site-footer {
+  width: 100%;
+  position: fixed;
+}
+
+.site-main {
+  top: 0;
+}
+
+.site-footer {
+  bottom: 0;
+}
+
+#main {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	text-align: center;
+}
+
+#name {
+	font-size: 40px;
+  font-weight: bold;
+}
+
+#menu {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2.5%;
+	text-align: center;
+	font-size: 25px;
+  font-family: "fira-sans-thin";
+}
+
+#menu ul li {
+	display: inline;
+  list-style-type: none;
+	padding: 10px 0 10px 0;
+}
+
+
+#menu ul li a {
+	padding-left: 17.5px;
+	padding-right: 17.5px;
+}
+
+::selection {
+    color: black;
+    background: rgb(174, 182, 191);
+}
+
+#menu ul li:hover {
+	font-weight: bold;
+  background: rgb(213, 219, 219);
+}
+
+#about {
+  display: inline-block;
+  vertical-align:top;
+}
+
+.profile-card {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "fira-sans-light";
+}
+
+#card {
+  width: 30%;
+  float: left;
+  text-align: right;
+  padding-top: 2.5%;
+  padding-right: 5%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#pic {
+  height: 170px;
+  text-align: center;
+}
+
+#bio {
+  width: 65%;
+  float: right;
+  text-align: left;
+}
+
+#contacts {
+  width: 65%;
+  float: right;
+	margin-top: 7.5%;
+	text-align: right;
+	font-size: 15px;
+  font-family: "fira-sans-thin";
+  border-bottom:2px solid;
+  border-top:2px solid;
+  border-color: rgb(93, 109, 126);
+}
+
+#contacts ul li {
+	display: inline;
+  list-style-type: none;
+	padding: 10px 0 10px 0;
+}
+
+#contacts ul li a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#contacts ul li:hover {
+  background: rgb(213, 219, 219);
+}
+
+#footer-text {
+  width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: right;
+  font-family: "fira-sans-thin";
+}
